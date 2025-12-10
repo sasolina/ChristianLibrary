@@ -10,7 +10,7 @@ app.use(express.json());
 
 //Test routes
 app.get('/', (req, res) => {
-    res.send("MyBible Application Backend is Running!")
+    res.send("MyBible Application Backend is Running! ")
 });
 
 // Use PORT from .env or default to 5000
